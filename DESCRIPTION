@@ -1,0 +1,29 @@
+Package: DE
+Version: 0.9.0
+Date: 2019-12-26
+Title: Direct Estimation
+Author: Harold Doran [aut],
+        Paul Bailey [aut, cre],
+        Eric Buehler [ctb] (mml example),
+        Sun-joo Lee [ctb] (mml example, mml),
+        Claire Kelley [ctb] (early version of variance estimation functions for mml)
+Maintainer: Paul Bailey <pbailey@air.org>
+Depends:
+    R (>= 3.3.0),
+Imports: minqa,
+         foreach,
+         iterators
+Description: Fit linear models, integrating out a latent trait outcome (such as ability), using direct estimation.
+License: GPL-2
+VignetteBuilder: knitr
+Suggests: knitr,
+          testthat,
+          withr,
+          doParallel,
+          tidyr,
+          EdSurvey
+LazyData: true
+ByteCompile: true
+Note: This publication was prepared for NCES under Contract No. ED-IES-12-D-0002 with the American Institutes for Research. Mention of trade names, commercial products, or organizations does not imply endorsement by the U.S. Government.
+Encoding: UTF-8
+RoxygenNote: 6.1.1
